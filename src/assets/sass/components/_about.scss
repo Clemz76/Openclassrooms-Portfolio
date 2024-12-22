@@ -1,0 +1,142 @@
+.about {
+  width: 100%;
+  max-width: 1224px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+
+  &__image {
+    img {
+      width: 450px;
+      height: 450px;
+      border-radius: 80px;
+    }
+  }
+
+  &__text {
+    left: 385px;
+    top: 130px;
+    line-height: 1.7;
+    padding-left: 20px;
+
+    p {
+      font-size: 11px;
+    }
+
+    &--title {
+      padding-bottom: 15px;
+      font-size: 34px;
+      padding-left: 80px;
+      position: relative;
+      overflow: hidden;
+      animation: arrival 3s forwards;
+    }
+
+    &--motsclés {
+      font-weight: bold;
+      font-size: 12px;
+      color: white;
+    }
+
+    &--langages {
+      font-weight: bold;
+    }
+  }
+
+  @media (max-width: 1315px) {
+    &__image {
+      img {
+        width: 350px;
+        height: 350px;
+      }
+    }
+
+    &__text {
+      font-size: 13px;
+      left: 300px;
+      &--title {
+        font-size: 25px;
+      }
+    }
+  }
+
+  @media (max-width: 1115px) {
+    &__text {
+      left: 300px;
+      &--title {
+        font-size: 20px;
+        padding-left: 30px;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__text {
+      font-size: 10.5px;
+      &--title {
+        font-size: 14px;
+        padding-left: 0px;
+        animation: none;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 20px;
+
+    &__image {
+      img {
+        width: 230px;
+        height: 230px;
+        border-radius: 50px;
+        filter: blur(0);
+      }
+    }
+
+    &__text {
+      position: static;
+
+      &--title {
+        position: static;
+      }
+    }
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+
+  &__arrow {
+    top: -40px;
+    rotate: 30deg;
+    position: absolute;
+    cursor: pointer;
+    width: 50px;
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  @media (max-width: 1024px) {
+    &__arrow {
+      width: 60px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 50px;
+    &__arrow {
+      width: 40px;
+      padding-top: 10px;
+    }
+  }
+}

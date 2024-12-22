@@ -1,0 +1,50 @@
+[
+  {
+    "name":"HTML",
+    "id": 1,
+    "img":"./images/logo/htmlLogo.webp",
+    "imgAlt":"logo HTML"
+  },
+  {
+    "name":"CSS",
+    "id": 2,
+    "img":"./images/logo/cssLogo.webp",
+    "imgAlt":"logo CSS"
+  },
+  {
+    "name":"SASS",
+    "id": 3,
+    "img":"./images/logo/sassLogo.webp",
+    "imgAlt":"logo SASS"
+  },
+  {
+    "name":"Javascript",
+    "id": 4,
+    "img":"./images/logo/javascriptLogo.webp",
+    "imgAlt":"logo Javascript"
+  },
+  {
+    "name":"React",
+    "id": 5,
+    "img":"./images/logo/reactLogo.webp",
+    "imgAlt":"logo React"
+  },
+  {
+    "name":"Redux",
+    "id": 6,
+    "img":"./images/logo/reduxLogo.webp",
+    "imgAlt":"logo Redux"
+  },
+  {
+    "name":"Git/GitHub",
+    "id": 7,
+    "img":"./images/logo/githubLogo.webp",
+    "imgAlt":"logo GitHub"
+  },
+  {
+    "name":"Figma",
+    "id": 8,
+    "img":"./images/logo/figmaLogo.webp",
+    "imgAlt":"logo Figma"
+  }
+]

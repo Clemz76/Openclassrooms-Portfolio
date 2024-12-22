@@ -1,0 +1,71 @@
+@import "/src/assets/sass/utilities/variables.scss";
+@import "/src/assets/sass/utilities/keyframes";
+@import "/src/assets/sass/utilities/mixins";
+
+@import "aos/dist/aos.css";
+
+@import "/src/assets/sass/components/header.scss";
+@import "/src/assets/sass/components/footer.scss";
+@import "/src/assets/sass/components/about.scss";
+@import "/src/assets/sass/components/projects.scss";
+@import "/src/assets/sass/components/modal.scss";
+@import "/src/assets/sass/components/skills.scss";
+@import "/src/assets/sass/components/contact.scss";
+
+@font-face {
+   font-family: "Roboto";
+   src: url("/public/fonts/RobotoMono/RobotoMono-Regular.ttf")
+      format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Poppins";
+   src: url("/public/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+* {
+   font-family: "Roboto", sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   color: $text-color;
+   background-color: $background-color;
+}
+
+img {
+   object-fit: cover;
+}
+
+main {
+   margin: 0 auto;
+   padding: 0 100px;
+   width: 100%;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+li {
+   list-style-type: none;
+}
+
+span {
+   color: $blue-color;
+}
+
+@media (max-width: 1024px) {
+   main {
+      padding: 20px;
+   }
+}

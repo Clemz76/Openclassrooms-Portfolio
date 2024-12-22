@@ -1,0 +1,31 @@
+.footer {
+   background-color: $card-color;
+   padding: 10px 20px;
+   text-align: right;
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+
+   &__socials {
+      display: flex;
+      gap: 20px;
+      padding-left: 20px;
+      i {
+         font-size: 30px;
+      }
+
+      i.fa-github:hover {
+         color: $red-color;
+      }
+   }
+
+   @media (max-width: 480px) {
+      font-size: 10px;
+      &__socials {
+         padding-left: 0;
+         i {
+            font-size: 20px;
+         }
+      }
+   }
+}

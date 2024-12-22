@@ -1,0 +1,14 @@
+@mixin section-title {
+  font-size: 50px;
+  padding-bottom: 40px;
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+@mixin border-section {
+  background-color: $card-color;
+  border: 1px solid $border-color;
+  border-radius: 15px;
+}
