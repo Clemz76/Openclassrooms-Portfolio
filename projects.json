@@ -1,0 +1,149 @@
+[
+   {
+      "title": "Booki",
+      "id": 1,
+      "cover": "./images/projectsCover/bookiCover.webp",
+      "coverDescription": "Page d'accueil du site Booki",
+      "descriptions": "Création de la page d'accueil d'une agence de voyage. Le but de ce projet était d'intégrer une interface responsive grâce à une maquette Figma pour mobile, tablette et desktop.",
+      "skillsTitle": "Skills",
+      "skills": [
+         {
+            "name": "HTML",
+            "iconUrl": "./images/logo/htmlLogo.webp"
+         },
+         {
+            "name": "CSS",
+            "iconUrl": "./images/logo/cssLogo.webp"
+         }
+      ]
+   },
+   {
+      "title": "Ohmyfood",
+      "id": 2,
+      "github": "https://github.com/Clemz76/Projet-4-OhMyFood",
+      "cover": "./images/projectsCover/ohmyfoodCover.webp",
+      "coverDescription": "Page d'accueil du site Ohmyfood",
+      "descriptions": "Amélioration de l'interface d'un site mobile avec des animations CSS. Intégration d'une maquette en mobile-first. Utilisation de SASS, pré-processeur CSS. Utilisation de Git et Github pour versionner le projet.",
+      "skillsTitle": "Skills",
+      "skills": [
+         {
+            "name": "HTML",
+            "iconUrl": "./images/logo/htmlLogo.webp"
+         },
+         {
+            "name": "CSS",
+            "iconUrl": "./images/logo/cssLogo.webp"
+         },
+         {
+            "name": "Sass",
+            "iconUrl": "./images/logo/sassLogo.webp"
+         }
+      ]
+   },
+   {
+      "title": "Print it!",
+      "id": 3,
+      "github": "https://github.com/Clemz76/Projet-5-PrintIt",
+      "cover": "./images/projectsCover/printitCover.webp",
+      "coverDescription": "Page d'accueil du site Print It",
+      "descriptions": "Premier pas sur Javascript avec la mise en place d'un carrousel interactif. Mise à jour du code existant HTML et ajout du carrousel en Javascript.",
+      "skillsTitle": "Skills",
+      "skills": [
+         {
+            "name": "Javascript",
+            "iconUrl": "./images/logo/javascriptLogo.webp"
+         }
+      ]
+   },
+   {
+      "title": "Sophie Bluel",
+      "id": 4,
+      "github": "https://github.com/Clemz76/Projet-6-ArchiWebos",
+      "cover": "./images/projectsCover/sophiebluelCover.webp",
+      "coverDescription": "Page d'accueil du site Sophie Bluel",
+      "descriptions": "Intégration d'une page web dynamique en Javascript pour une architecte d'intérieur. Utilisation d'une API pour mettre en ligne des projets. Création d'une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux projets.",
+      "skillsTitle": "Skills",
+      "skills": [
+         {
+            "name": "Javascript",
+            "iconUrl": "./images/logo/javascriptLogo.webp"
+         }
+      ]
+   },
+   {
+      "title": "Kasa",
+      "id": 5,
+      "github": "https://github.com/Clemz76/Projet-8-Kasa",
+      "cover": "./images/projectsCover/kasaCover.webp",
+      "coverDescription": "Page d'accueil du site Kasa",
+      "descriptions": "Intégration d'une application web de location immobilière. Implémentation du front-end de l'application en utilisant React et React Router. Intégration de la maquette et utilisation de données extraites d'une fichier JSON.",
+      "skillsTitle": "Skills",
+      "skills": [
+         {
+            "name": "Sass",
+            "iconUrl": "./images/logo/sassLogo.webp"
+         },
+         {
+            "name": "React",
+            "iconUrl": "./images/logo/reactLogo.webp"
+         }
+      ]
+   },
+   {
+      "title": "ArgentBank",
+      "id": 6,
+      "github": "https://github.com/Clemz76/ArgentBank-Frontend",
+      "cover": "./images/projectsCover/argentbankCover.webp",
+      "coverDescription": "Page d'accueil du site ArgentBank",
+      "descriptions": "Implémentation du front-end d'une application bancaire avec React. Utilisation de React pour developper le projet et de Redux pour gérer le state de l'application. Recours à des appels API pour afficher les données du back-end. Mise en place d'une système de connexion d'utilisateur et de modification de nom d'utilisateur. ",
+      "skillsTitle": "Skills",
+      "skills": [
+         {
+            "name": "React",
+            "iconUrl": "./images/logo/reactLogo.webp"
+         },
+         {
+            "name": "Redux",
+            "iconUrl": "./images/logo/reduxLogo.webp"
+         }
+      ]
+   },
+   {
+      "title": "Nina Carducci",
+      "id": 7,
+      "github": "https://github.com/Clemz76/Projet-9-Nina-Carducci",
+      "cover": "./images/projectsCover/ninacarducciCover.webp",
+      "coverDescription": "Page d'accueil du site Nina Carducci",
+      "descriptions": "Optimisation du référencement (SEO) d'un site en améliorant les performances et l'accessibilité. Modification du code existant, et utilisation d'outils tels que Lighthouse et Wave. Création d'un rapport illustrant les résultats avant/après les modifications. ",
+      "skillsTitle": "Skills",
+      "skills": [
+         {
+            "name": "Wave",
+            "iconUrl": "./images/logo/waveLogo.webp"
+         },
+         {
+            "name": "Lighthouse",
+            "iconUrl": "./images/logo/lighthouseLogo.webp"
+         }
+      ]
+   },
+   {
+      "title": "724 Events",
+      "id": 8,
+      "github": "https://github.com/Clemz76/Projet-10-724events",
+      "cover": "./images/projectsCover/724EventsCover.webp",
+      "coverDescription": "Page d'accueil du site 724 Events",
+      "descriptions": "Examen du code existant pour debugger l'application 724Events. Finalisation du site après debug. Identification des problèmes et bugs signalés sur le site. Utilisation de Javascript et des outils specifiques à React comme React Developer Tools. Création de tests unitaires et d'intégration pour m'assurer que les différents composants du site fonctionnent bien entre eux.",
+      "skillsTitle": "Skills",
+      "skills": [
+         {
+            "name": "Javascript",
+            "iconUrl": "./images/logo/javascriptLogo.webp"
+         },
+         {
+            "name": "React",
+            "iconUrl": "./images/logo/reactLogo.webp"
+         }
+      ]
+   }
+]
